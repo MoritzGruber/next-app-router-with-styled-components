@@ -1,4 +1,4 @@
-import { Navbar } from "../lib/SNavbar";
+import { SNavbar } from "../lib/SNavbar";
 import { Body, Link,  } from "../lib/styles";
 import StyledComponentsRegistry from "./registry";
 
@@ -11,12 +11,12 @@ export default function RootLayout({
     <html lang="en">
       <StyledComponentsRegistry>
       <Body>
-        <Navbar>
+        <SNavbar>
           <Link href="#">Home</Link>
           <Link href="#">About</Link>
           <Link href="#">Sign in</Link>
           <Link href="#">Sign up</Link>
-        </Navbar>
+        </SNavbar>
         {children}
       </Body>
       </StyledComponentsRegistry>

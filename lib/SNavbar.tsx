@@ -1,7 +1,7 @@
 "use client";
 import { styled } from "styled-components";
 
-export const Navbar = styled.nav`
+export const SNavbar = styled.nav`
   height: 80px;
   width: 100%;
   display: flex;
